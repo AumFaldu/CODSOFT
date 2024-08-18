@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-4 d-flex justify-content-start"><p>|</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#1DA1F2" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5 9.341-9.334v-.426A6.683 6.683 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.299 3.299 0 0 0 1.443-1.817 6.574 6.574 0 0 1-2.084.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.431 3.286 3.286 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.041a3.288 3.288 0 0 0 2.633 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.615-.057 3.286 3.286 0 0 0 3.067 2.278A6.588 6.588 0 0 1 .78 13.58a9.286 9.286 0 0 0 5.034 1.474"/>
+                      </svg>
+                      <p>|</p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#4267B2" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M12 2H4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4v-5H6V9h2V7a2 2 0 0 1 2-2h2v2h-2v2h2l-1 2h-1v5h3a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
+                      </svg>
+                      <p>|</p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FF0000" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h-.002c-3.058.02-4.964.192-6.198.571A3.68 3.68 0 0 0 .335 3.47 3.997 3.997 0 0 0 0 5.999c-.003.698-.003 1.418-.003 2.108v.002c.001.695.001 1.425.003 2.112 0 .003 0 .006.002.01v.003c.002.747.036 1.592.187 2.349.166.814.463 1.471.914 2.01a3.695 3.695 0 0 0 2.26 1.271c1.234.379 3.14.551 6.198.571 3.058-.02 4.964-.192 6.198-.571a3.68 3.68 0 0 0 2.26-1.271 4.001 4.001 0 0 0 .914-2.01c.15-.757.184-1.602.186-2.35.003-.686.003-1.416.003-2.11V7.11c-.001-.698-.001-1.418-.003-2.108v-.002c-.001-.695-.001-1.425-.003-2.112v-.002A4.003 4.003 0 0 0 15.665 2.57a3.68 3.68 0 0 0-2.26-1.271c-1.234-.379-3.14-.551-6.198-.571zm-.002 10.934V5.975l3.795 3.486-3.795 3.472z"/>
+                      </svg>
+                      <p>|</p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0077B5" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146c0-.635.523-1.146 1.146-1.146h13.708c.635 0 1.146.523 1.146 1.146v13.708a1.146 1.146 0 0 1-1.146 1.146H1.146A1.146 1.146 0 0 1 0 14.854V1.146zm4.906 12.207V6.169H2.542v7.184h2.364zm-1.181-8.194c-.842 0-1.519-.676-1.519-1.51 0-.834.677-1.51 1.519-1.51.834 0 1.51.676 1.51 1.51 0 .834-.676 1.51-1.51 1.51zm4.856 8.194V9.378c0-.747-.015-1.707-.99-1.707-.991 0-1.142.774-1.142 1.653v3.029h2.363v-7.184H8.323v.98h.034c.329-.621 1.134-1.276 2.333-1.276 2.495 0 2.956 1.646 2.956 3.79v3.689h-2.364z"/>
+                      </svg>
+                      <p>|</p>                      
+                </div>
+                <div class="col-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                      </svg>
+                    <span>+12-345-7890 | </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#28A745" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-7 7a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708l-7-7z"/>
+                        <path d="M2.5 6.5v7a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-1 0v6.5H3V6.5a.5.5 0 0 0-1 0z"/>
+                      </svg>
+                      
+                    <a href="mailto:demolanding@gmail.com">demolanding@gmail.com</a>
+                </div>
+                <div class="col-4 text-end">
+                    <button class="btn btn-primary">REQUEST A CONSULT</button>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <img style="height:100px;width: 100px;" src="https://cdn2.vectorstock.com/i/1000x1000/39/41/landing-page-icon-flat-design-vector-12023941.jpg" id="img1" alt="Landing Page Icon">
+                    <h1>LANDING PAGE</h1>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#page">Page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#buyNow">Buy Now</a></li>
+                        <li class="nav-item"><a class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="carousel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://cdn.builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/national/dotsdotdash-creative-design-agency-portland.jpg" class="d-block w-100" alt="Creative Digital Agency">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Creative Digital Agency</h5>
+                        <p>
+                            <button class="btn btn-secondary">READ MORE</button>
+                            <button class="btn btn-primary">REQUEST A CONSULT</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://cdn2.vectorstock.com/i/1000x1000/20/71/creative-agency-website-banner-design-vector-19142071.jpg" class="d-block w-100" alt="Creative Designing">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Creative Designing</h5>
+                        <p>
+                            <button class="btn btn-secondary">READ MORE</button>
+                            <button class="btn btn-primary">REQUEST A CONSULT</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.quickreviewer.com/wp-content/uploads/2019/05/How-Creative-Design-Agencies-Benefit-your-Business-1080x675.jpg" class="d-block w-100" alt="Creative Design in Business">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Creative Design in Business</h5>
+                        <p>
+                            <button class="btn btn-secondary">READ MORE</button>
+                            <button class="btn btn-primary">REQUEST A CONSULT</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="features" class="container py-5">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff-fill" viewBox="0 0 16 16">
+                    <path d="M12.17 9.53c2.307-2.592 3.278-4.684 3.641-6.218.21-.887.214-1.58.16-2.065a3.6 3.6 0 0 0-.108-.563 2 2 0 0 0-.078-.23V.453c-.073-.164-.168-.234-.352-.295a2 2 0 0 0-.16-.045 4 4 0 0 0-.57-.093c-.49-.044-1.19-.03-2.08.188-1.536.374-3.618 1.343-6.161 3.604l-2.4.238h-.006a2.55 2.55 0 0 0-1.524.734L.15 7.17a.512.512 0 0 0 .433.868l1.896-.271c.28-.04.592.013.955.132.232.076.437.16.655.248l.203.083c.196.816.66 1.58 1.275 2.195.613.614 1.376 1.08 2.191 1.277l.082.202c.089.218.173.424.249.657.118.363.172.676.132.956l-.271 1.9a.512.512 0 0 0 .867.433l2.382-2.386c.41-.41.668-.949.732-1.526zm.11-3.699c-.797.8-1.93.961-2.528.362-.598-.6-.436-1.733.361-2.532.798-.799 1.93-.96 2.528-.361s.437 1.732-.36 2.531Z"/>
+                    <path d="M5.205 10.787a7.6 7.6 0 0 0 1.804 1.352c-1.118 1.007-4.929 2.028-5.054 1.903-.126-.127.737-4.189 1.839-5.18.346.69.837 1.35 1.411 1.925"/>
+                  </svg>
+                <h3>LAUNCH BUSINESS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quisquam tempora id modi eaque cum, placeat esse aperiam. Eveniet cum ad dicta vitae consequuntur, sit quis. Et sequi adipisci unde?</p>
+            </div>
+            <div class="col-md-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headphones" viewBox="0 0 16 16">
+                    <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5"/>
+                  </svg>
+                <h3>ONLINE SUPPORT TEAM</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident sequi repudiandae, laudantium modi corporis aspernatur ea quis sapiente, assumenda exercitationem sit. Et sit est voluptate minus quos expedita iure accusantium.</p>
+            </div>
+            <div class="col-md-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 1 .5.5v4.293l3.5 3.5a.5.5 0 0 1-.707.707l-3.5-3.5A.5.5 0 0 1 7.5 8V4a.5.5 0 0 1 .5-.5z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8z"/>
+                  </svg>
+                  
+                <h3>TIME MANAGEMENT</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, adipisci, eius voluptatem unde quisquam obcaecati, blanditiis voluptatum voluptate officiis ut distinctio quam doloremque voluptates exercitationem? Ipsa ducimus impedit error porro?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>ABOUT US</h2>
+                <h3>15 years, we are passionate about achieving better results for our clients</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum reprehenderit hic harum, temporibus eligendi, obcaecati dolorem at voluptatem error quia sed tempore molestiae. Necessitatibus quos tempora voluptate consequatur veniam ipsum?</p>
+                <button class="btn btn-secondary">Read More</button>
+            </div>
+            <div class="col-md-6 text-end">
+                <img src="http://pluspng.com/img-png/png-person-thinking-thinking-man-png-1169.png" id="img2" class="img-fluid" alt="Person Thinking">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container-fluid py-5 bg-light">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>OUR SERVICES</h2>
+            </div>
+            <div class="col-md-4">
+                <img class="image" src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?size=626&ext=jpg&uid=R159460835&ga=GA1.1.914342816.1723971827&semt=ais_hybrid" />
+                <figcaption><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-volume-off-fill" viewBox="0 0 16 16">
+                    <path d="M10.717 3.55A.5.5 0 0 1 11 4v8a.5.5 0 0 1-.812.39L7.825 10.5H5.5A.5.5 0 0 1 5 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06"/>
+                  </svg>                 
+                <h3>USER EXPERIENCE</h3></figcaption>
+            </div>
+            <div class="col-md-4">
+                <img class="image" src="https://img.freepik.com/free-vector/design-concept-illustration-idea-style-creativity-projects_613284-3229.jpg?size=626&ext=jpg&uid=R159460835&ga=GA1.1.914342816.1723971827&semt=ais_hybrid" />
+                <figcaption><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.5.5 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.5.5 0 0 0-.196 0zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1z"/>
+                  </svg>
+                <h3>CREATIVE DESIGN</h3></figcaption>
+                
+            </div>
+            <div class="col-md-4">
+                <img class="image" src="https://th.bing.com/th/id/OIP.McXBcVMFR1F1rZeaaHMggAHaEm?rs=1&pid=ImgDetMain" />
+                <figcaption><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                    <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+                  </svg><h3>RETINA READY</h3></figcaption>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Landing Page. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ODjS4PTpCTIBz3lfEACRo3ie/l/0s1nGJEGld0vI4hYBlpYRt4wftFR4M3CYYc6e" crossorigin="anonymous"></script>
+</body>
+</html>

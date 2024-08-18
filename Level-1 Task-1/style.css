@@ -1,0 +1,50 @@
+body {
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff; 
+}
+.carousel-inner img {
+    height: 500px; 
+}
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.box {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+}
+.about-us {
+    background-color: #dcdcdc; 
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-us img {
+    max-width: 200px;
+    height: auto;
+}
+.service-box {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.image{
+    height: 250px;
+    width: 300px;
+}
